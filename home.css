@@ -1,0 +1,210 @@
+.tab {
+	overflow: hidden;
+	padding: 0px 0px 10px 70px;
+	height: 50px;
+  width: 70%;
+	border: 1px solid #ccc;
+	background-color: #ffffff;
+  }
+  
+  /* Style the buttons inside the tab */
+.tab button
+{
+	background-color: inherit;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 8px 10px;
+	transition: 0.3s;
+	font-size: 14px;
+}
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+	background-color:rgb(225, 209, 209);
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+	background-color: rgb(213, 45, 45);
+  }
+  .button
+  {
+   background-color: white;
+   border: none;
+   color: black;
+   
+  }
+                                      /*veg  button*/
+  .vegtab {
+    overflow: hidden;
+    padding: 0px 0px 10px 800px;
+    height: 50px;
+    width: 95%;
+    
+    }
+    
+    /* Style the buttons inside the tab */
+  .vegtab button
+  {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 8px 10px;
+    transition: 0.3s;
+    font-size: 14px;
+  }
+    
+    .button
+    {
+    
+     border: none;
+     color: black;
+     
+    }
+                                                          /*end non veg button*/
+.noPadding
+{
+width:140px;
+height:50px;
+padding: 0px 0px 10px 70px;
+}
+.padding
+{
+	width:80px;
+	height:30px;
+  padding: 0px 0px 10px 430px;
+}
+h4
+{
+    padding: 0px 0px 10px 0px;
+}
+.bgimg
+{
+	width:75%;
+	height:1300px;
+  background-color:rgb(238, 232, 232);
+
+}
+div.gallery {				/*galerry*/
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 250px;
+  }
+  
+  div.gallery:hover {
+	border: 1px solid #777;
+  }
+  
+  div.gallery img {
+	width: 100%;
+	height: auto;
+  }
+  
+  div.desc {
+	padding: 15px;
+	text-align: justify;
+	background-color: #ffffff;
+  }
+  p
+  {
+	color: gray;
+  }
+  .img2
+  {
+	height: 10px;
+  width: 10%;
+  }
+  .buttonk
+  {
+   background-color: green;
+   border: none;
+   color: white;
+   padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 220px;
+    height: 40px;
+  }
+   /* Change background color of buttons on hover */
+   .buttonk:hover {
+    background-color:rgb(225, 209, 209);
+    }
+    
+    /* Create an active/current tablink class */
+    .buttonk.active {
+    background-color:green;
+    }
+
+  
+.bascket
+{
+  position: absolute;
+  padding-right: 30px;
+  padding-right: 20px; 
+    top: 0px;
+    right: 10px;
+    border-radius:0px;
+    background-color: #ffffff;
+    padding: 20px; 
+    width: 350px;
+    height:650px;
+    
+    position: fixed;
+   
+}
+.root{
+  border: black;
+  padding: 10px 0px;
+  top: 110px;
+  right: 20px;
+}
+body {
+  overflow-x: hidden;
+}
+.b1
+{
+  
+  background-color: green;
+   border: none;
+   color: white;
+   width: 350px;
+ height: 50px;
+}
+.foot
+{
+  display: flex;
+  justify-content: space-between;
+  margin: 70px 0px;
+  padding: 10px 0px;
+  border-top:1px solid #333;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100%;
+  text-align: center;
+}
+
+/*apply css properties to button tag*/
+
+button {
+  width: 90px;
+  height: 60px;
+  font-size: 30px;
+  background-color: green;
+  color: honeydew;
+}
+.t1 {
+  
+  font-size: 18px;
+}
+
